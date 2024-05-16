@@ -1,6 +1,10 @@
 mongodb:
-  uri: "mongodb://mongodb-service:27017"
+  uri: "mongodb://mongodb:27017"
 
 serviceMonitor:
+  enabled: true
+  interval: 11s
+  scrapeTimeout: 5s
+  namespace: default
   additionalLabels:
     release: prometheus
