@@ -52,7 +52,7 @@
 
 `kubectl describe pod mongo-depl-{pod-name}`
 
-### delete deplyoment
+### delete deployment
 `kubectl delete deployment mongo-depl`
 
 `kubectl delete deployment nginx-depl`
@@ -69,7 +69,9 @@
 ### delete with config
 `kubectl delete -f nginx-deployment.yaml`
 
+#Metrics
 
+`kubectl top` The kubectl top command returns current CPU and memory usage for a cluster’s pods or nodes, or for a particular pod or node if specified.
 
 
 

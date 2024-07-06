@@ -1,2 +1,1 @@
-# kubernetes-tutorial-series-youtube
-
+# KUBERNETES CLUSTER PRACTICES
