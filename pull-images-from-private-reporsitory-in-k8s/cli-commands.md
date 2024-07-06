@@ -22,12 +22,20 @@
 
 ##### create docker login secret with login credentials
 
+##<<<<<<< nanuchi-master-patch-72848
+    docker create secret docker-registry my-registry-key \
+=======
     kubectl create secret docker-registry my-registry-key \
+###>>>>>>> master
     --docker-server=https://private-repo \
     --docker-username=user \
     --docker-password=pwd
 
+##<<<<<<< nanuchi-master-patch-72848
+    docker create secret docker-registry my-registry-key --docker-server=https://private-repo --docker-username=user --docker-password=pwd
+=======
     kubectl create secret docker-registry my-registry-key --docker-server=https://private-repo --docker-username=user --docker-password=pwd
+##>>>>>>> master
 
 ##### access minikube console
 
